@@ -5,7 +5,7 @@ A házi feladat során egy automatizált CI/CD folyamatot kellett létrehozni Gi
 ## Repository tartalma 
 
 - **Dockerfile**: Meghatározza az egyedi Nginx alapú image felépítését.
-- **index.html**: A weboldal tartalma, amely megjeleníti a "DevOps homework by: <Szécsi Dávid>" feliratot.
+- **index.html**: A weboldal tartalma, amely megjeleníti a "DevOps homework by: <Szecsi David>" feliratot.
 - **.github/workflows/docker-publish.yml**: Az automatizációs szkript, ami minden `main` branch-re történő feltöltéskor (push) lefut.
 
 ## CI/CD munkafolyamat
