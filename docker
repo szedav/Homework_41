@@ -1,0 +1,11 @@
+# NGINX telepítése
+FROM nginx:latest
+
+# A saját index.html fájlunk bemásolása az nginx alapértelmezett publikus mappájába
+COPY index.html /usr/share/nginx/html/index.html
+
+# A 80-as port megnyitása
+EXPOSE 80
+
+# nginx elindítása
+CMD ["nginx", "-g", "daemon off;"]
